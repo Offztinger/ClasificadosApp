@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-ClasificadosApp</title>
+    <link rel="stylesheet" href="/css/login.css">  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <header>
+            <div class="contenedorCompra">
+                <img class="logoCompra" src="/img/compralogo.png" alt="logocompra">
+            </div>
+    </header>
+
+    <div class="contenedorClasificados"> 
+        <img src="/img/clasificadosapp.png" alt="logoclasificados">
+    </div> 
+
+    <div class="contenedorBienvenido"> 
+        <h2 class="textoBienvenido">¡Bienvenido!</h2>
+    </div>
+
+    <form class="contenedorForm">
+
+        <div class="contenedorEmail">
+            <label class="textoEmail">Correo electrónico</label>
+            <input class="textoEmail2" type="email" required name="email" placeholder="Tu correo electrónico" autocomplete="off" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$";/> 
+        </div>
+
+        <div class="contenedorPassword">
+            <label class="textoPassword">Contraseña</label>
+            <input class="textoPassword2" type="password" required name="password" placeholder="Tu contraseña" pattern=""/> 
+        </div>
+
+        <div class="contenedorIngresar">  
+            <button class="botonIngresar">
+                <div class="textoIngresar">
+                    <h3>ingresar</h3>
+                </div>      
+            </button>
+        </div>
+
+    </form>
+</body>
+
+</html>
