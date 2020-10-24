@@ -85,13 +85,14 @@ button{
     justify-content: center;
     width: 101px;
     height: 101px;
-    margin-right: 32px;
+    margin: 22px;
     box-shadow: 0px 3px 6px var(--unnamed-color-e5ecfa);
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #E5ECFA;
     border-radius: 5px;
     border: none;
     opacity: 1;
+    font: normal normal normal 12px/14px Poppins;
 }
 
 .contenedorBotones{
@@ -102,15 +103,15 @@ button{
 }
 
 .logoBolsa{
-    width: 24px;
-    height: 2px;
+    width: 20px;
+    height: 28px;
     margin: 8px;
     opacity: 1
 }
 
 .logoBuscar{
-    width: 24px;
-    height: 24px;
-    margin: 8px;
+    width: 44px;
+    height: 44px;
+    margin: 1px;
     opacity: 1
 }

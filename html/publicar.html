@@ -6,11 +6,63 @@
     <link rel="stylesheet" href="/css/publicar.css">  
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
-<body>
+<body> 
     <header>
         <div class="contenedorCompra">
-            <img class="logoCompra" src="/img/compralogo.png" alt="logocompra">
+
+            <button class="logos">
+                <img class="logoCompra" src="../img/flecha.svg" alt="logocompra">
+            </button>
+
+            <img class="logoCompra" src="../img/compralogo.png" alt="logocompra">
+
+            <button class="logos">
+                <img class="logoCompra" src="../img/salida.png" alt="logocompra">
+            </button>
+            
         </div>
     </header>
+
+    <div class="contenedorBienvenido"> 
+        <h1 class="textoBienvenido">   
+            ¡Bienvenido!
+        </h1>
+    </div>
+    <div class="contenedorUsuario"> 
+        <h1 class="textoUsuario">   
+        Esteban Molina
+        </h1>
+    </div>
+    <section class="contenedorBotones">
+        <button class="botones">
+                <img class="logoBuscar" src="../img/buscar.png" alt="logocompra">
+                <div>
+                     <strong>Buscar</strong> un producto o servicio
+                </div>
+        </button>
+
+        <button class="botones">
+                <img class="logoBolsa" src="../img/bolsa.png" alt="logocompra">
+                 <div> 
+                      <strong>Publicar</strong> un producto o servicio
+                 </div>    
+       </button>
+    </section>
+        
+    <section class="form">
+        <div class="tituloForm"> 
+            <h2>¿Qué quieres vender?</h2>
+                <p class="pasoForm">Paso 1 de 2<p>
+        </div>
+        <form>
+            <label>Los campos marcados con asterisco (*) son obligatorios</label>
+            <br>
+            <input type="radio" id="producto" name="tipopost" value="Producto">
+            <label for="producto">Producto</label>
+            <input type="radio" id="servicio" name="tipopost" value="Servicio">
+            <label for="servicio">Servicio</label>
+        </form>
+    </section>
+
 </body>
 </html>
