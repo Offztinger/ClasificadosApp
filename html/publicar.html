@@ -54,12 +54,55 @@
                 <p class="pasoForm">Paso 1 de 2<p>
         </div>
         <form>
-            <label>Los campos marcados con asterisco (*) son obligatorios</label>
+            <label class="fuente2">Los campos marcados con asterisco (*) son <br> obligatorios</label>
             <br>
-            <input type="radio" id="producto" name="tipopost" value="Producto">
-            <label for="producto">Producto</label>
+            <input class="radios" type="radio" id="producto" name="tipopost" value="Producto">
+            <label class="fuenteRadios" for="producto">Producto</label>
             <input type="radio" id="servicio" name="tipopost" value="Servicio">
-            <label for="servicio">Servicio</label>
+            <label class="fuenteRadios" for="servicio">Servicio</label>
+            <br>
+
+            <div class="contenedorInput mt-3">
+                <label class="tituloInput">Tipo de producto o servicio*:</label>
+                <select class="textoInput" id="inputTipo" name="tipo">
+                    <option selected value="Error">Tipo de producto o servicio</option>
+                    <option value="Opcion1">Opcion1</option>
+                    <option value="Opcion2">Opcion2</option>
+                    <option value="Opcion3">Opcion3</option>
+                    <option value="Opcion4">Opcion4</option>
+                    <option value="Opcion5">Opcion5</option>
+                  </select>
+            </div>
+
+            <div class="contenedorInput mt-3">
+                <label class="tituloInput">Nombre del producto o servicio*:</label>
+                <input class="textoInput" type="text" placeholder="¿Que ofreces?">
+            </div>
+
+            <div class="contenedorInput mt-3">
+                <label class="tituloInput">Descripción del producto o servicio*:</label>
+                <input class="textoInput2" type="text" placeholder="Describe de forma corta pero precisa el producto o servicio que estás ofreciendo...">
+                <p class="ml fuenteRadios">0 / 300</p>
+            </div>
+
+            <div class="contenedorInput mt-3">
+                <label class="tituloInput">Ubicación del producto o servicio*:</label>
+                <select class="textoInput" id="inputLugar" name="lugar">
+                    <option selected value="Error">Barrio, Municipio, Ciudad</option>
+                    <option value="Opcion1">Opcion1</option>
+                    <option value="Opcion2">Opcion2</option>
+                    <option value="Opcion3">Opcion3</option>
+                    <option value="Opcion4">Opcion4</option>
+                    <option value="Opcion5">Opcion5</option>
+                  </select>
+            </div>
+
+            <div class="contenedorBoton mt-4">  
+                <button class="textoBoton">
+                    SIGUIENTE   
+                </button>
+            </div>
+
         </form>
     </section>
 

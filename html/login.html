@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="/css/login.css">  
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    
+
     <header>
 
         <a class="logoFlecha" href="bienvenido.html">
@@ -23,7 +22,6 @@
         </a>
 
     </header>
-
     <div class="logoClasificados">
         <img src="/img/clasificadosapp.png" alt="logoclasificados"> 
     </div>
@@ -33,23 +31,21 @@
         <p class="textoBienvenido">¡Bienvenido!</p>
     </div>
 
-    <form class="contenedorForm">
+    <form class="form">
 
-        <div class="contenedorEmail">
-            <label class="textoEmail">Correo electrónico</label>
-            <input class="textoEmail2" type="email" required name="email" placeholder="Tu correo electrónico" autocomplete="off" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$";/> 
+        <div class="contenedorInput">
+            <label class="tituloInput mt">Correo electrónico</label>
+            <input class="textoInput" type="email" required name="email" placeholder="Tu correo electrónico" autocomplete="off" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$";/> 
         </div>
 
-        <div class="contenedorPassword">
-            <label class="textoPassword">Contraseña</label>
-            <input class="textoPassword2" type="password" required name="password" placeholder="Tu contraseña" pattern=""/> 
+        <div class="contenedorInput">
+            <label class="tituloInput mt-2">Contraseña</label>
+            <input class="textoInput" type="password" required name="password" placeholder="Tu contraseña" pattern=""/> 
         </div>
 
-        <div class="contenedorIngresar">  
-            <button class="botonIngresar">
-                <div class="textoIngresar">
-                    <h3>ingresar</h3>
-                </div>      
+        <div class="contenedorBoton mt-4">  
+            <button class="textoBoton">
+                INGRESAR   
             </button>
         </div>
 
